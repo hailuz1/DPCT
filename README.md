@@ -13,7 +13,7 @@ This repo presents an enhanced Deep Point Correspondence model based on Transfor
 ## Experiments
 DPCT improved the results of the DPC model and achived great results.
 
-The second last line (DPCT method) belongs to the model with offset-attention and the last line (DPCT(assignment) method) belongs to the model with offset-attention and with the Hungarian algorithm.
+The penultimate line (DPCT method) belongs to the model with offset-attention and the last line (DPCT(assignment) method) belongs to the model with offset-attention and with the Hungarian algorithm.
 
 ![image](https://user-images.githubusercontent.com/102179195/195860045-81fcd057-3a0e-4f17-a387-1fb9b5aac9e4.png)
 
