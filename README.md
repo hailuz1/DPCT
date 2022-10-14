@@ -1,6 +1,6 @@
 # DPCT: Unsupervised Deep Point Correspondence based on Transformer via Cross and Self Construction
 
-This repo is based on the [**DPC**](https://github.com/dvirginz/DPC) model and used offset-attention from [**PCT**](https://github.com/MenghaoGuo/PCT) model.
+This model is based on the [**DPC**](https://github.com/dvirginz/DPC) model and used offset-attention from [**PCT**](https://github.com/MenghaoGuo/PCT) model.
 
 Contact: [Hai Iluz](mailto:xhailuzx@gmail.com)
 
