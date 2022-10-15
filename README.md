@@ -11,19 +11,19 @@ This repo presents an enhanced Deep Point Correspondence model based on Transfor
 <img src=./SHREC.gif width="200" />
 
 ## Experiments
-DPCT improved the results of the DPC model and achived great results.
+DPCT improved the results of the DPC model and achieved great results.
 
-The penultimate line (DPCT method) belongs to the model with offset-attention and the last line (DPCT(assignment) method) belongs to the model with offset-attention and Hungarian algorithm.
+The penultimate line (DPCT method) belongs to the model with offset-attention and the last line (DPCT(assignment) method) belongs to the model with offset-attention and the Hungarian algorithm.
 
 ![image](https://user-images.githubusercontent.com/102179195/195860045-81fcd057-3a0e-4f17-a387-1fb9b5aac9e4.png)
 
 ## Installation
 
-Please follow the `requirements.txt`. If for some reason it's not work follow the `installation.sh`
+Please follow the `requirements.txt`. If for some reason it does not work follow the `installation.sh`
 
 ## Inference
 
-For inference, please run the following line with the relevan checkpoint. The checkpoints are in the data/ckpts/ folder. Note that in this folder you can find the DPCT checkpoints but also the DPC checkpoints.
+For inference, please run the following line with the relevant checkpoint. The checkpoints are in the data/ckpts/ folder. Note that in this folder you can find the DPCT checkpoints but also the DPC checkpoints.
 
 ```
 python train_point_corr.py --do_train false  --resume_from_checkpoint <path>
